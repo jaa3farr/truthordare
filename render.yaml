@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: love-bot
+    runtime: python
+    buildCommand: ""
+    startCommand: python main.py
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
